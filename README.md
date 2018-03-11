@@ -2,7 +2,7 @@
 learn how to use.
 
 add a.file
-add a.file 2
+add a.file 1
 
 Hello! this is readme-edits!
 
