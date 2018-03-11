@@ -15,3 +15,4 @@ Hello! this is new commit: 20180309 15:51
 Hello! this is new commit: 20180309 17:43
 
 add b.file
+add b.file 2
