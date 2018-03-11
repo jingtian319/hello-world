@@ -1,6 +1,8 @@
 # hello-world
 learn how to use.
 
+add a.file
+
 Hello! this is readme-edits!
 
 Hello! this is new commit: 20170708 11:31
