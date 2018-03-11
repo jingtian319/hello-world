@@ -2,6 +2,7 @@
 learn how to use.
 
 add a.file
+add a.file 2
 
 Hello! this is readme-edits!
 
