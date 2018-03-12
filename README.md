@@ -4,7 +4,7 @@ learn how to use.
 add a.file
 add a.file 1
 
-Hello! this is readme-edits!
+Hello! this is readme-edits! append new words!
 
 Hello! this is new commit: 20170708 11:31
 Hello! this is new commit: 20170728 11:39
