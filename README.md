@@ -5,6 +5,7 @@ add a.file
 add a.file 1
 
 Hello! this is readme-edits!
+Hello! new line!
 
 Hello! this is new commit: 20170708 11:31
 Hello! this is new commit: 20170728 11:39
