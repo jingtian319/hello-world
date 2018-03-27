@@ -1,0 +1,6 @@
+# 不包含/
+test_a
+
+# 包含/
+test_b
+/test_c
