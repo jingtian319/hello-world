@@ -8,3 +8,10 @@ test_d/
 
 # trailing /**
 test_e/**
+
+# it is not possible to re-include a file if a parent directory of that file is excluded. # 
+/test_f/
+!/test_f/test
+
+#
+test_g/test
