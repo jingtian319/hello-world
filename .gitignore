@@ -15,3 +15,33 @@ test_e/**
 
 #
 test_g/test
+
+
+
+# 不包含/，匹配所有目录下的文件或者目录
+file_dir_1
+
+# 结尾包含/，仅匹配目录
+file_dir_2/
+
+#  leading slash matches the beginning of the pathname. 开头包含/，以.gitignore文件所在目录为相对路径
+/file_3
+/dir_3/
+
+# an optional prefix "!" which negates the pattern; any matching file excluded by a previous pattern will become included again.
+# 在level2目录下，会利用"!"将level2目录下的file_4和dir_4/重新include进来
+file_4
+dir_4/
+
+#It is not possible to re-include a file if a parent directory of that file is excluded.
+dir_5/
+!dir_5/test2
+
+#Git treats the pattern as a shell glob: "*" matches anything except "/"
+*asterisk*
+
+#"?" matches any one character except "/"
+?question?
+
+#加上前缀目录
+dir_6/test1
