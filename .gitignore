@@ -43,5 +43,13 @@ dir_5/
 #"?" matches any one character except "/"
 ?question?
 
-#加上前缀目录
+#加上前缀目录，只会匹配相对于.gitignore所在目录的dir_6目录中的test1，level2/dir_6/test1不受影响
 dir_6/test1
+
+#A trailing "/**" matches everything inside. For example, "abc/**" matches all files inside directory "abc", relative to the location of the .gitignore file, with infinite depth.
+#相当于加上前缀目录，只会匹配相对于.gitignore所在目录的dir_6目录中的test1，level2/dir_7/**不受影响
+dir_7/**
+
+#A leading "**" followed by a slash means match in all directories.
+#匹配任何目录下的dir_7/test1
+**/dir_7/test1
